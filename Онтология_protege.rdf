@@ -1,0 +1,680 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature/"
+     xml:base="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature/1.0"/>
+        <rdfs:comment>Литература</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#BPMN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#BPMN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стандарт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#CSS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#CSS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стандарт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#HTML -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#HTML">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стандарт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#IEEE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#IEEE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стандарт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#ISO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#ISO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стандарт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#UML -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#UML">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стандарт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Автореферат_диссертации -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Автореферат_диссертации">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Амфибрахий -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Амфибрахий">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Трёхсложное"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Анапест -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Анапест">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Трёхсложное"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Баллада -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Баллада">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпос"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Басня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Басня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпос"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Биография -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Биография">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научно-популярная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#ГОСТ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#ГОСТ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стандарт"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Газета -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Газета">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научно-популярная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Дактиль -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Дактиль">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Трёхсложное"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Двусложное -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Двусложное">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Размер"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Диссертация -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Диссертация">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Документация -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Документация">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Техническая"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Драма -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Драма">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Род"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Драма1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Драма1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Драма"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Журнал -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Журнал">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научно-популярная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Задачник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Задачник">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Учебная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Иностранный -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Иностранный">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Словарь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Инструкция -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Инструкция">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Документация"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Классицизм -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Классицизм">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Направление"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Комедия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Комедия">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Драма"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Род"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Литература -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Литература"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Материалы_конференций -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Материалы_конференций">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Методическое_пособие -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Методическое_пособие">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Учебная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Модернизм -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Модернизм">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Направление"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Монография -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Монография">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научно-популярная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Направление -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Направление">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Художественная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Литература"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная_статья -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная_статья">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научно-популярная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научно-популярная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Литература"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научный_отчёт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научный_отчёт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Новелла -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Новелла">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпос"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Ода -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Ода">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Орфографический -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Орфографический">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Словарь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Паспорт_изделия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Паспорт_изделия">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Документация"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Патент -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Патент">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Техническая"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Песня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Песня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Повесть -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Повесть">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпос"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Послание -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Послание">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Постмодернизм -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Постмодернизм">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Направление"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Поэма -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Поэма">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпос"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Практикум -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Практикум">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Учебная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Размер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Размер">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стихотворение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Рассказ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Рассказ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпос"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Реализм -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Реализм">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Направление"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Род -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Род">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Художественная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Роман -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Роман">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпос"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Романтизм -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Романтизм">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Направление"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Руководство_по_эксплуатации -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Руководство_по_эксплуатации">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Документация"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Руководство_пользователя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Руководство_пользователя">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Документация"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Сборник_научных_трудов -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Сборник_научных_трудов">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Сентиментализм -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Сентиментализм">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Направление"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Словарь -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Словарь">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Справочная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Сонет -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Сонет">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Справочная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Справочная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Литература"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Справочник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Справочник">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Справочная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стандарт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стандарт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Техническая"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стихотворение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Стихотворение">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Терминологический -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Терминологический">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Словарь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Техническая -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Техническая">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Литература"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Толковый -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Толковый">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Словарь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Трагедия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Трагедия">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Драма"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Трёхсложное -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Трёхсложное">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Размер"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Учебная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Учебная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Литература"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Учебник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Учебник">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Учебная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Хорей -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Хорей">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Двусложное"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Хрестоматия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Хрестоматия">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Учебная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Художественная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Художественная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Литература"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Элегия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Элегия">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Лирика"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Энциклопедический -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Энциклопедический">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Словарь"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Энциклопедия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Энциклопедия">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Научно-популярная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпопея -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпопея">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпос"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпос -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Эпос">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Род"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Ямб -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Ямб">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Двусложное"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Ямб1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Ямб1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2025/10/Ontologia_literature#Двусложное"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
